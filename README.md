@@ -3,10 +3,10 @@ A web application for login website.
 
 # Web interface
 ## Login page
-![Login_page](https://user-images.githubusercontent.com/87403901/147192761-6cb72066-31a4-400f-9d7f-a28157d05633.jpg)
+![Login_page](https://user-images.githubusercontent.com/87403901/147192983-86409cc6-deda-4f94-9fff-f412d4ecffc2.jpg)
 
 ## Password length validation
-![Login_passwordLength](https://user-images.githubusercontent.com/87403901/147192837-4c8fcb45-3c64-462f-bc30-fcf5c82420fd.jpg)
+![Login_passwordLength](https://user-images.githubusercontent.com/87403901/147193009-409c8156-2956-4acf-8db5-0515bdabde48.jpg)
 
 ## Success page
 ![Login_success](https://user-images.githubusercontent.com/87403901/147192776-4c12402b-0fad-4d3a-8ece-92085451ba32.jpg)
