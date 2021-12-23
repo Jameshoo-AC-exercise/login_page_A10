@@ -1,0 +1,30 @@
+{{#if alert}}
+<div class="alert alert-danger d-flex align-items-center" role="alert">
+  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
+    <use xlink:href="#exclamation-triangle-fill" />
+  </svg>
+  <div>
+    Your email address or password is incorrect ! Please try again !
+  </div>
+</div>
+{{/if}}
+
+<form class="needs-validation" action="/" method="post">
+  <div class="mb-3">
+    <label for="InputEmail" class="form-label">Email address</label>
+    {{!-- 要記得加 name="" req.body 才接得到 --}}
+    <input type="email" class="form-control" id="inputEmail" name="inputEmail" aria-describedby="emailHelp"
+      placeholder="support@alphacamp.co" required>
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="InputPassword" class="form-label">Password</label>
+    {{!-- 要記得加 name="" req.body 才接得到 --}}
+    <input type="password" class="form-control" id="inputPassword" name="inputPassword" aria-describedby="passwordHelp"
+      minlength="6" required>
+    <div id="passwordHelp" class="form-text">The password might contains uppercase and lowercase letters and special
+      symbols.
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
